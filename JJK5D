@@ -1,1 +1,46 @@
-wwww.maxk.xyz
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+        <legend>请选择你的爱好：</legend>
+        <select name="myhobby" id="myhobby">
+        <optgroup label="运动">
+        <option value="篮球">篮球
+        </option>
+        <option value="足球">足球
+        </option>
+        </optgroup>
+        <optgroup label="电子">
+        <option value="看电影">看电影
+        </option>
+        <option value="看电视">看电视
+        </option>
+        </optgroup>
+        </select>
+        </fieldset>
+        </form>
+        
+        户：
+</label>
+        <input type="text"
+name="username" id="username">
+    </p>
+    <p>
+        <label for="password">密码：
+</label>
+        <input type="password"
+name="password" id="password">
+    </p>
+    <p><input type="submit"></p>
+</form>
+1234567891011
+<
+</body>
+</html>
