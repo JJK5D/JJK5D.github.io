@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang = "zh-CN">
 <head>
@@ -75,15 +74,9 @@ footer{
 <li><a href="2Gchonlang.html">2G冲浪</a></li>
 <li><ins style="color:#4B0082">看书(此处不附链接)</ins></li>
 <li><u style="color:#4B0082">听音乐(此处不附链接)</u></li>
-</ul>
 <br/>
 <br/>
-<h6>
-<hr size="1" color="red"/>
-<h6>
-<footer>
-<h6><center><b>设计者：纪志康</b></center><h6>
-</footer>
+  <footer>设计者：纪志康</footer>
 
 </body>
 
