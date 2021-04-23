@@ -61,10 +61,8 @@ footer{
 <li>长相：英俊</li>
 <li>人品：好到爆</li>
 <li>财产：家财万贯</li>
-<hr size="1" color= #2F4F4F/>
 </ul>
-
-
+</section>
 <ol type="1">
 <strong>兴趣爱好：</strong>
 <li><a href="zhuoqiuguize.html">打桌球</a></li>
