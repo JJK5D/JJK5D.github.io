@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang = "zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -44,7 +43,6 @@ footer{
 <header>
 <h2> <center><strong>沃史溯·爱戈的介绍</strong></center></h2>
 </header>
-<hr size="1" color="blue"/>
 <img src="renwu1.png" alt="人物角色图片，图片未能正常显示" title="我是沃史溯·爱戈"/>
 <nav>
 这是一个<br/>
