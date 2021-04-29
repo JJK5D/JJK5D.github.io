@@ -1,79 +1,50 @@
-<html lang = "zh-CN">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>
-沃史溯·爱戈的自介绍!
-</title>
-<style>
-header{
-  background-color:#FFB6C1;
-  color: #000000;
-  padding: 5px;
-}
-nav{
-  line-height: 50px;
-  background-color: #7FFFD4;
-  color: #000000;
-  height: 482px;
-
-  float: left;
-  padding: 20px;
-}
-section{
-  font: 24px/120% 宋体;
-  height:500px;
-}
-img{
-  float: right;
-  width: 70%;
-  padding: 1px;
-}
-footer{
-  font :26px/120% 楷体;
-}
-</style>
-
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设计网页初学者</title>
+    <link rel="stylesheet" href="first_design.css">
 </head>
 
-
 <body>
-<header>
-<h2> <center><strong>沃史溯·爱戈的介绍</strong></center></h2>
-</header>
-<img src="renwu1.png" alt="人物角色图片，图片未能正常显示" title="我是沃史溯·爱戈"/>
-<nav>
-这是一个<br/>
-介绍人物的<br/>
-网站<br/>
-</nav>
-
-<section>
-
-<ul type="disc">
-<strong>基本信息介绍:</strong>
-<li>姓名：沃史溯·爱戈</li>
-<li>年龄：约等于18</li>
-<li>身高：188cm</li>
-<li>体重：70kg</li>
-<li>长相：英俊</li>
-<li>人品：好到爆</li>
-<li>财产：家财万贯</li>
-</ul>
-</section>
-<ol type="1">
-<strong>兴趣爱好：</strong>
-<li><a href="zhuoqiuguize.html">打桌球</a></li>
-<li><a href="jianshenjieshao.html">健身</a></li>
-<li><a href="2Gchonlang.html">2G冲浪</a></li>
-<li><ins style="color:#4B0082">看书(此处不附链接)</ins></li>
-<li><u style="color:#4B0082">听音乐(此处不附链接)</u></li>
-<br/>
-<br/>
-  <footer>设计者：纪志康</footer>
-
+    <header></header>
+    <h1>网页设计初学者网页上传网站</h1>
+    </header>
+    <hr class="hr_1">
+    <table>
+        <thead>
+            <tr>
+                <th>设计的日期</th>
+                <th>设计的内容</th>
+                <th>点击这里跳转</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>忘了</td>
+                <td>最垃圾的人物的介绍</td>
+                <td><a href="ziwo_1.html" target="_self">1</a></td>
+            </tr>
+            <tr>
+                <td>忘了</td>
+                <td>用表格做的人物介绍</td>
+                <td><a href="ziwo_2.html" target="_self">2</a></td>
+            </tr>
+            <tr>
+                <td>忘了</td>
+                <td>图书购物的架子</td>
+                <td><a href="tushuchaoshi.html" target="_self">3</a></td>
+            </tr>
+        </tbody>
+    </table>
+    <!--<main>
+        <nav></nav>
+        <aside></aside>
+    </main>-->
+    <footer>设计者: max_K</footer>
 </body>
 
 </html>
