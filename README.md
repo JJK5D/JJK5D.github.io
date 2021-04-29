@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header></header>
+    <header>
     <h1>网页设计初学者网页上传网站</h1>
     </header>
     <hr class="hr_1">
