@@ -44,7 +44,7 @@
             <aside></aside>
         </main>-->
     <footer id="footer">
-        <span>设计者: 快乐风男鸡鸡康和老黄狗</span>
+        <span>设计者:&copy;鸡爷&trade;狗爷&trade;</span>
     </footer>
 </body>
 
