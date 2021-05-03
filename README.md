@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>设计网页初学者</title>
-    <link rel="stylesheet" href="first_design.css">
     <link rel="stylesheet" href="css/css.css" />
 </head>
 
