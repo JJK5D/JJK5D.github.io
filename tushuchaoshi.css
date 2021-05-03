@@ -1,0 +1,31 @@
+#shelf {
+    font: 16px 宋体;
+    margin: 0px;
+    padding: 0px;
+}
+
+.product {
+    width: 25%;
+    padding: 0px;
+    float: left;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #356f8f;
+    overflow: hidden;
+}
+
+li {
+    font: 130% 宋体;
+    float: left;
+    margin: 6px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color: #F5F5F5;
+}

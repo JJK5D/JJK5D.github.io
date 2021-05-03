@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图书超市</title>
+    <link rel="stylesheet" href="tushuchaoshi.css">
+</head>
+
+<body>
+    <header>
+        <h2 style="text-align: center;">图书超市</h2>
+    </header>
+    <ul>
+        <li onclick="show(0)">东野圭吾</li>
+        <li onclick="show(1)">莫言</li>
+        <li onclick="show(2)">余华</li>
+    </ul>
+    <hr style="margin: 40px;">
+    <div id="shelf">
+        <div class="product">
+            <img src="" style="width: 100%;" alt="">
+            <figcaption></figcaption>
+        </div>
+        <div class="product">
+            <img src="" style="width: 100%;" alt="">
+            <figcaption></figcaption>
+        </div>
+        <div class="product">
+            <img src="" style="width: 100%;" alt="">
+            <figcaption></figcaption>
+        </div>
+        <div class="product">
+            <img src="" style="width: 100%;" alt="">
+            <figcaption></figcaption>
+        </div>
+    </div>
+</body>
+<script>
+    var shelf = document.getElementById("shelf");
+    var book = [
+        [{
+            price: "27.90",
+            name: "毕业"
+        }, {
+            price: "22.50",
+            name: "放学后"
+        }, {
+            price: "59.90",
+            name: "解忧杂货店"
+        }, {
+            price: "29.90",
+            name: "同级生"
+        }],
+        [{
+            price: "30.60",
+            name: "丰乳肥臀"
+        }, {
+            price: "29.50",
+            name: "晚熟的人"
+        }, {
+            price: "21.70",
+            name: "蛙"
+        }, {
+            price: "24.80",
+            name: "檀香刑"
+        }],
+        [{
+            price: "17.50",
+            name: "活着"
+        }, {
+            price: "39.50",
+            name: "第七天"
+        }, {
+            price: "22.10",
+            name: "许三观卖血记"
+        }, {
+            price: "59.00",
+            name: "文城"
+        }]
+    ];
+
+    function show(kind) {
+        var b = book[kind]
+        for (i = 0; i < 4; i++) {
+            var product = shelf.children[i];
+            var c = product.children;
+            c[0].src = b[i].name + ".jpg";
+            c[1].innerHTML = b[i].name + '<br/>' + '<br/>' + "￥" + b[i].price;
+        }
+    }
+    show(0);
+</script>
+
+</html>
