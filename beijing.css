@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(81, 201, 185);
+}
+
+section {
+    color: rgb(52, 81, 209);
+}
+
+table {
+    background: url("zhoushu_quan.jpg") no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(201, 199, 81);
+    text-align: center;
+    border-spacing: 0;
+    border-collapse: 0;
+    color: rgb(255, 29, 236);
+    width: 100%;
+}
+
+header {
+    color: blueviolet;
+}
+
+#suoyin {
+    text-align: center;
+    color: rgb(223, 47, 47);
+}
+
+#jieshao {
+    background-color: rgba(253, 165, 0, 0.774);
+}
+
+#head_er:hover {
+    background-color: rgb(255, 5, 5);
+}
+
+footer {
+    color: crimson;
+    text-align: center;
+}
