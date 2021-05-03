@@ -44,7 +44,7 @@
             <aside></aside>
         </main>-->
     <footer id="footer">
-        <span>设计者: max_K</span>
+        <span>设计者: 快乐风男鸡鸡康和老黄狗</span>
     </footer>
 </body>
 
