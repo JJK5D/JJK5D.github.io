@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hr_1 {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#table {
+    position: relative;
+    margin: 0 auto;
+    width: 500px;
+    height: 110px;
+    margin-top: 30px;
+    text-align: center;
+    border-color: beige;
+}
+
+#thead tr th {
+    font-size: 14px;
+}
+
+#table .a_math a {
+    text-decoration: none;
+    color: #000;
+}
+
+#table .a_math a:hover {
+    color: red;
+}
+
+#footer {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
