@@ -1,0 +1,109 @@
+/*蓝天白云加绿草*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CCC;
+    display: flex;
+    /*大盒子一级容器*/
+    flex-direction: column;
+    /*使用属性值column上下排布 row则左右排布（默认为从上到下和从左到右）*/
+    min-height: 100vh;
+    /*页面占视口高度100%*/
+}
+
+header,
+footer {
+    flex: 0;
+    /*body容器的项目，高度不变*/
+    text-align: center;
+    background-color: #CCF;
+    color: #ffffff;
+    padding: 2px;
+}
+
+footer {
+    text-align: center;
+}
+
+main {
+    /*二级容器，主区*/
+    flex: 1;
+    /*让所有弹性盒模型对象的子元素都有相同的长度，忽略它们内部的内容*/
+    display: flex;
+    /*自己作为二级容器*/
+    padding: 8px 0px;
+}
+
+nav {
+    order: -1;
+    /*导航栏放置于左边*/
+    flex: 0 0 9em;
+    /*main容器的项目，宽度9em*/
+}
+
+section {
+    /*文本存放区*/
+    flex: 1;
+    /*main容器的项目，宽度可变*/
+    padding: 16px;
+    /*盒子之间的间隔*/
+    min-width: 20em;
+    /*最小宽度*/
+}
+
+aside {
+    /*右边栏*/
+    flex: 0 0 12em;
+    /*main容器的项目，宽度12em*/
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+aside h2 {
+    color: rgba(245, 135, 9, 0.952);
+}
+
+nav ul {
+    /* 导航栏列表 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li,
+aside {
+    /*导航栏列表项, 边栏*/
+    /* nav和li的aside元素 */
+    background-color: #FF9;
+    color: #66C;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+nav li {
+    padding: 8px;
+    margin-bottom: 7em;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav li:hover {
+    /*伪类，导航栏列表项:鼠标悬停时*/
+    background-color: #CCF;
+}
+
+nav a {
+    color: darksalmon;
+}
+
+img {
+    width: 100%;
+    height: 30em;
+}
