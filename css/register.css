@@ -1,0 +1,412 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/* display: inline-flex; */
+	background: url(../img/6.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+.nav {
+	display: flex;
+}
+.nav-btn {
+	display: inline-block;
+	position: fixed;
+	left: 1.25rem;
+	top: 1.25rem;
+	width: 2.5rem;
+	height: 2.5rem;
+	border: 1px solid #000;
+	border-radius: 1.25rem;
+	text-align: center;
+	background-color: #00000090;
+	cursor: pointer;
+	z-index: 100;
+}
+.nav-btn p {
+	color: #FFFFFF;
+	font-family: "楷体";
+	font-size: 2.75rem;
+	position: relative;
+	top: -25%;
+}.nav-btn:hover {
+	background-color: #00000099;
+}
+.nav-btn:active {
+	background-color: red;
+}
+
+/* .....nav-box...... */
+.nav .nav-box {
+	background-image: url(../img/0.jpg);
+	/* background-size: 25vw; */
+	background-repeat: round;
+	width: 18vw;
+	height: 100vh;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	color: #ffffff;
+	border-radius: 15px;
+	box-shadow: 2px 4px 8px 2px rgba(0,0,0,0.75);
+	z-index: 100;
+}
+#nav-box {
+	display: none;
+}
+
+.nav-box-btn {
+	display: block;
+	width: 2.5rem;
+	height: 2.5rem;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	top: 2%;
+	transform: translate(-50%);
+	border-radius: 1.25rem;
+	background-color: #00000060;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.75rem;
+	cursor: pointer;
+}
+.nav-box-btn:hover {
+	background-color: #00000099;
+}
+.nav-box-btn:active {
+	background-color: red;
+}
+
+.nav-logo {
+	/* position: fixed; */
+	display: flex;
+	top: 3.333333rem;
+	left: 3.333333rem;
+	font-size: 2rem;
+	cursor: pointer;
+	color: #00000040;
+}
+
+.nav .nav-box ul {
+	margin: 0;
+	margin-top: 6.666666rem;
+	padding: 0;
+	list-style-type: none;
+}
+
+.nav-box li a {
+	margin: 0;
+	display: block;
+	font-size: 1.25rem;
+	text-decoration: none;
+	padding: 1.666666rem;
+	padding-left: 6.5rem;
+	color: lemonchiffon;
+	border-top: 0.1rem solid rgba(255,255,255,0.7);
+	border-bottom: 0.1rem solid rgba(0,0,0,0.7);
+	transition: 0.425s;
+}
+.nav-box li:first-child {
+	border-top: 0.1rem solid rgba(0,0,0,0.7);
+}
+.nav-box li:last-child {
+	border-bottom: 0.1rem solid rgba(255,255,255,0.7);
+}
+
+.nav-box li a:hover {
+	padding-left: 8.5rem;
+	color: #FFFFFF;
+	background-color: #00000060;
+}
+.nav-box li a:active {
+	color: #FFFACD;
+	background-color: #6495ED90;
+}
+.nav-box li a.active {
+	color: #FFFFFF;
+	background-color: #6495ED90;
+}
+.logo-animate {
+	position: relative;
+}
+
+.logo-animate::after {
+    content: '打工仔☆神仙屋';
+    position: absolute;
+    top: 0;
+    left: 0;
+	/* 文字透明色 */
+	color: transparent;
+	background-image: linear-gradient(to right,
+	    #c23616,#192a56,#00d2d3,yellow,
+	    #6d214f,#2e86de,#4cd137,#e84118);
+	/* 背景绘制区域 当值为text 的时候 代表设置了文字的镂空效果 
+	但是前提必须是文字颜色为透明色 */
+	background-clip: text;
+	/* 谷歌浏览器的私有属性 */
+	-webkit-background-clip: text;
+	/* 利用裁切来创建元素的可显示区域 circle表示创建了圆形
+	 100px表示圆形的直径，0%和50%表示圆形的圆心
+	  圆形的直径和圆形的圆心利用at关键字隔开 */
+	clip-path: circle(10px at 0% 10%);
+	  /* 定帧 时长 infinite 表示无限次播放 */
+	animation: move 4s infinite linear;
+}
+
+/* 下面设置圆形移动效果 */
+@keyframes move {
+	0%{
+		clip-path: circle(50px at 0% 50%);
+	}
+	50%{
+		clip-path: circle(25px at 100% 50%);
+	}
+	100%{
+		clip-path: circle(50px at 0% 50%);
+	}
+}
+/* --------------淡入淡出动画------------- */
+.animate-opacity {
+	animation: animate-opacity 1s linear;
+}
+@keyframes animate-opacity{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+@-webkit-keyframes animate-opacity{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+
+
+
+
+#register-box::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+#register-box {
+	width: 25%;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px 40px;
+	margin-top: 12.5%;
+	text-align: center;
+	background: #00000060;
+	border-radius: 15px;
+	/* display: flex; */
+}
+
+#register-box h1 {
+	color: #ffffff90;
+}
+
+#register-box .form .item {
+	margin-top: 10px;
+}
+#register-box .form .item input {
+	border: 0;
+	width: 150px;
+	font-size: 12px;
+	border-bottom: 2px solid #fff;
+	padding: 5px 10px;
+	background: #ffffff00;
+	color: #fff;
+	outline: none;
+}
+#register-box .form .item input::placeholder {
+	color: #ffffff90;
+	text-align: center;
+}
+
+#register-box button {
+	margin-top: 15px;
+	width: 120px;
+	height: 30px;
+	font-size: 15px;
+	font-weight: 700;
+	color: #ffffff90;
+	background-image: -webkit-linear-gradient(bottom, #a18cd1 0%, #fbc2eb 100%);
+	background-image: -o-linear-gradient(bottom, #a18cd1 0%, #fbc2eb 100%);
+	background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+	border-radius: 15px;
+	outline: none;
+}
+
+#login-succeed {
+	/* display: block; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 15px;
+	background-color: #00000080;
+	color: #dddddd;
+	font-size: 24px;
+	padding: 24px;
+}
+
+.animate-opacity {
+	animation: animate-opacity 1s linear;
+}
+@keyframes animate-opacity {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0.6;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* ------------footer------------ */
+
+.footer-box::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+.column {
+	width: 33.33%;
+	/* float: left; */
+	text-align: center;
+}
+
+.footer-box {
+	background-color: #FFFACD;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	/* margin-top: 120px; */
+	position: absolute;
+	overflow: hidden;
+	bottom: -24rem;
+	color: #0000FF;
+	display: inline-block;
+}
+
+.footer-logo {
+	position: absolute;
+	top: 40%;
+	font-size: 2rem;
+}
+#footer-animate {
+	position: relative;
+}
+
+#footer-animate::after {
+    content: '打工仔☆神仙屋';
+    position: absolute;
+    top: 5;
+    left: 0;
+	/* 文字透明色 */
+	color: transparent;
+	background-image: linear-gradient(to right,
+	    green,yellow,red,pink,
+	    aqua,purple,blue,beige);
+	/* 背景绘制区域 当值为text 的时候 代表设置了文字的镂空效果 
+	但是前提必须是文字颜色为透明色 */
+	background-clip: text;
+	/* 谷歌浏览器的私有属性 */
+	-webkit-background-clip: text;
+	/* 利用裁切来创建元素的可显示区域 circle表示创建了圆形
+	 100px表示圆形的直径，0%和50%表示圆形的圆心
+	  圆形的直径和圆形的圆心利用at关键字隔开 */
+	clip-path: circle(10px at 0% 10%);
+	  /* 定帧 时长 infinite 表示无限次播放 */
+	animation: move 4s infinite linear;
+}
+
+/* 下面设置圆形移动效果 */
+@keyframes move {
+	0%{
+		clip-path: circle(50px at 0% 50%);
+	}
+	50%{
+		clip-path: circle(25px at 100% 50%);
+	}
+	100%{
+		clip-path: circle(50px at 0% 50%);
+	}
+}
+
+.middle {
+	position: relative;
+	top: 16.66%;
+	left: 33.33%;
+	text-align: center;
+} 
+
+.footer-nav {
+	text-align: center;
+	justify-content: center;
+}
+.footer-nav ul {
+	margin-left: 4.8rem;
+	text-align: center;
+}
+.footer-nav ul li {
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	padding: 16px 0;
+	color: #000000;
+}
+.footer-nav li a {
+	text-decoration: none;
+	padding: 0px 18px;
+	margin: 0px auto;
+}
+.footer-nav li.hr {
+	transform: skew(-15deg);
+	font-size: 15px;
+}
+
+.copy {
+	border-top: 1px solid #000000;
+	margin: 0px 60px;
+	padding: 12px;
+	clear: both;
+}
+.copy p {
+	padding: 4px;
+	margin: 0 -20px;
+	letter-spacing: 1px;
+}
+
+.animationrotate {
+	position: relative;
+	animation: animationrotate 0.5s infinite linear;
+}
+@keyframes animationrotate {
+	0% {
+		transform: rotate(-10deg);
+	}
+	50% {
+		transform: rotate(10deg);
+	}
+	100% {
+		transform: rotate(-10deg);
+	}
+}

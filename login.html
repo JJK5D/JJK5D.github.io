@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>登陆</title>
+		<link href="https://fonts.font.im/css?family=Libre+Franklin" rel="stylesheet">
+		<link rel="stylesheet" href="css/register.css" type="text/css" />
+		<link rel="stylesheet" href="css/font-awesome.min.css" />
+		<script type="text/javascript" charset="UTF-8" src="js/register.js"></script>
+		<script src="js/jquery-1.9.1.min.js"></script>
+	</head>
+	<body>
+		<!-- ------nav------ -->
+		<nav class="nav">
+			
+			<div class="nav-box" id="nav-box">
+				<span class="nav-box-btn" id="nav-btn-close">☹</span>
+				<span class="nav-logo logo-animate">打工仔☆神仙屋</span>
+				<ul>
+					<li><a href="index.html" class="active">首页</a></li>
+					<li><a href="index.html#service">服务</a></li>
+					<li><a href="#">任务</a></li>
+					<li><a href="#">我的信息</a></li>
+					<li><a href="login.html">登陆</a></li>
+					<li><a href="register.html">注册</a></li>
+				</ul>
+			</div>
+			<span class="nav-btn animate-opacity" id="nav-btn-start"><p>☺</p></span>
+			
+		</nav>
+		
+		 <form method="" action="" name="myform" onsubmit="return myCheck()">
+				<div id="register-box">
+					<!-- 头部 -->
+					<h1>Login</h1>
+					<!-- 中间 -->
+					<div class="form">
+						<div class="item">
+							<input type="text" placeholder="用户名" name="username" onfocus="Focus()" onblur="Blur()" />
+						</div>
+	
+						<div class="item">
+							<input type="password" placeholder="输入密码" name="password" onfocus="Focus()" onblur="Blur()" />
+						</div>
+	
+					</div>
+					<!-- 按钮 -->
+					<button type="submit" name="tj">Login</button>
+				</div>
+		</form>
+		
+		<!-- -------------footer------------ -->
+		<div class="footer-box">
+			<div class="footer-logo column">
+				<span class="footer-animate" id="footer-animate"><a>打工仔☆神仙屋</a></span>
+			</div>
+			<div class="middle column">
+				<div class="footer-nav">
+					<ul style="color: #FFFFFF;">
+						<li><a href="index.html">首页</a></li>
+						<li class="hr">|</li>
+						<li><a href="#service">服务</a></li>
+						<li class="hr">|</li>
+						<li><a href="#">飞升</a></li>
+						<li class="hr">|</li>
+						<li><a href="#">关于</a></li>
+						<li class="hr">|</li>
+						<li><a href="#">联系</a></li>
+					</ul>
+				</div>
+				<div class="copy">
+					<p>Copyright &copy; 2020 19计应卓越班 黄嘉源 打工仔神仙屋 All rights reserved.&nbsp;&nbsp;本网站仅提供打工内容，其余皆与本站无关</p>
+				</div>
+			</div>
+		</div>
+		
+		<script type="text/javascript" charset="UTF-8" src="js/register.js"></script>
+	</body>
+</html>
