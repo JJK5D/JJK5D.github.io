@@ -45,7 +45,7 @@
             <tr>
                 <td>狗爷无敌</td>
                 <td>广告网站设计</td>
-                <td class="a_math"><a herf="index.html" target="_self">5</a></td>
+                <td class="a_math"><a herf="index01.html" target="_self">5</a></td>
             </tr>
         </tbody>
     </table>
