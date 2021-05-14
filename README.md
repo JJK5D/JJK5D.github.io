@@ -47,6 +47,11 @@
                 <td>广告网站设计</td>
                 <td class="a_math"><a herf="index01.html" target="_self">5</a></td>
             </tr>
+             <tr>
+                <td>尝试</td>
+                <td>尝试</td>
+                <td class="a_math"><a herf="index1.html" target="_self">6</a></td>
+            </tr>
         </tbody>
     </table>
     <!--<main>
